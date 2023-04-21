@@ -1,0 +1,4 @@
+const SERVERS: [(&str, &str); 2] = [
+    ("https://test-0.example.com", "..."),
+    ("https://test-1.example.com", "...")
+];
