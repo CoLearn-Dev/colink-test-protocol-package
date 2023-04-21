@@ -19,7 +19,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>
                 "vt_test",
                 &cls[i].get_user_id()?,
                 false, // change this to `true` if you want to reinstall/upgrade the protocol on the server
-                StartProtocolOperatorSourceType::Git,
+                StartProtocolOperatorSourceType::Git, // Available options: Git, Tgz, Docker
                 "",
                 "https://github.com/CoLearn-Dev/colink-protocol-variable-transfer-test.git",
                 "",
